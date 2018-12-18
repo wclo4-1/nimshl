@@ -1,0 +1,13 @@
+hscroot@PHHMC-1:~> lsavailres -m PH-870-1-9119-MME-SN68EFA37
+avail_mem_for_lpars=207616,avail_proc_units_for_lpars=9
+hscroot@PHHMC-1:~> 
+hscroot@PHHMC-1:~> 
+hscroot@PHHMC-1:~> lshwres -r proc -m PH-870-1-9119-MME-SN68EFA37 --level lpar --filter "lpar_names=SHCUONL01" -F curr_min_procs,curr_procs,curr_max_procs 
+1,7,40
+hscroot@PHHMC-1:~> 
+hscroot@PHHMC-1:~> lshwres -r mem -m PH-870-1-9119-MME-SN68EFA37 --level lpar --filter "lpar_names=SHCUONL01" -F curr_min_mem,curr_mem,curr_max_mem
+1024,38912,524288
+hscroot@PHHMC-1:~> 
+hscroot@PHHMC-1:~> 
+hscroot@PHHMC-1:~> lssyscfg -r prof -m PH-870-1-9119-MME-SN68EFA37|grep SHCUONL01
+name=SHCUONL01_default,lpar_name=SHCUONL01,lpar_id=4,lpar_env=aixlinux,all_resources=0,min_mem=2048,desired_mem=40893440,max_mem=81786880,min_num_huge_pages=0,desired_num_huge_pages=0,max_num_huge_pages=0,mem_mode=ded,hpt_ratio=1:128,proc_mode=ded,min_procs=2,desired_procs=7,max_procs=14,sharing_mode=keep_idle_procs,affinity_group_id=255,"io_slots=21010121/none/1,21030123/none/1,21010141/none/1,21050125/none/1,21020122/none/1,21020142/none/1,21030143/none/1,21050145/none/1",lpar_io_pool_ids=none,max_virtual_slots=10,"virtual_serial_adapters=0/server/1/any//any/1,1/server/1/any//any/1",virtual_scsi_adapters=none,virtual_eth_adapters=none,virtual_eth_vsi_profiles=none,virtual_fc_adapters=none,vnic_adapters=none,vtpm_adapters=none,boot_mode=norm,conn_monitoring=0,auto_start=0,power_ctrl_lpar_ids=none,work_group_id=none,redundant_err_path_reporting=0,lpar_proc_compat_mode=default,electronic_err_reporting=null,sriov_eth_logical_ports=none

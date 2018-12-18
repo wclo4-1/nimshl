@@ -1,0 +1,12 @@
+	ttlCUPpermProcs=758
+	ttlCUPinuseProcs=685
+	ttlCUPavailProcs=73
+
+	ttlScupPEpermProc=248
+	ttlScupPEmobProc=358
+
+	ttlScupPHpermProc=56
+	ttlScupPHmobProc=109
+
+	ttlBcupPEpermProc=136  
+	ttlBcupPEmobProc=218
