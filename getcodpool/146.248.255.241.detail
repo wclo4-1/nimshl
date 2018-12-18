@@ -1,8 +1,0 @@
-name,installed_procs,non_mobile_procs,mobile_procs,inactive_procs,activated_trial_procs,configurable_sys_proc_units,curr_avail_sys_proc_units,configurable_sys_mem,curr_avail_sys_mem
-PH-870-1-9119-MME-SN68EFA37,40,8,32,0	,0,40.0,9.0,524288,207616
-PH-870-2-9119-MME-SN68EFA27,40,8,23,9	,0,31.0,0.0,524288,178944
-PH-870-3-9119-MME-SN68EFA17,40,8,25,7	,0,33.0,1.0,524288,231424
-PH-870-4-9119-MME-SN68EFA07,40,8,23,9	,0,31.0,0.0,524288,84736
-PH-870-5-9119-MME-SN68EF9E7,40,8,3,29	,0,11.0,0.0,524288,463104
-PH-870-6-9119-MME-SN68EF9F7,40,8,3,29	,0,11.0,0.0,524288,463104
-PH-870-7-9119-MME-SN68EFA47,40,8,0,32	,0,8.0,0.0,524288,480512
